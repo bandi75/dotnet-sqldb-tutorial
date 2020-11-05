@@ -37,6 +37,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    ArtifactName: TestWebApp
-
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: TestWebApp
 
