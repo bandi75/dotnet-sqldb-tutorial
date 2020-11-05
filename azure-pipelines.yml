@@ -33,4 +33,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+- task: DownloadBuildArtifacts@0
+
 - task: PublishBuildArtifacts@1
+
