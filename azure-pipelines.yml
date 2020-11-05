@@ -36,4 +36,7 @@ steps:
 - task: DownloadBuildArtifacts@0
 
 - task: PublishBuildArtifacts@1
+  inputs:
+    ArtifactName: TestWebApp
+
 
